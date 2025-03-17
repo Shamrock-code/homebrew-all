@@ -6,7 +6,7 @@ class Shamrock < Formula
   license "CECILL-2.1"
 
   depends_on "cmake" => :build
-  
+
   depends_on "adaptivecpp"
   depends_on "fmt"
   depends_on "open-mpi"
