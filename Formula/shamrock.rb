@@ -1,5 +1,5 @@
 class Shamrock < Formula
-  desc "Astrophysical hydrodynamics using SYLC"
+  desc "Astrophysical hydrodynamics using SYCL"
   homepage "https://github.com/Shamrock-code/Shamrock"
   url "https://github.com/Shamrock-code/Shamrock/releases/download/v2025.03.1/shamrock-2025.03.1.tar"
   sha256 "df5b4af63944f5e97332baaafe6b0c8db11300c1d2f9a7676593f80c8ee92d7f"
