@@ -6,10 +6,11 @@ class Shamrock < Formula
   license "CeCILL Free Software License Agreement v2.1"
 
   depends_on "cmake" => :build
+  
+  depends_on "adaptivecpp"
   depends_on "fmt"
   depends_on "open-mpi"
   depends_on "python"
-  depends_on "adaptivecpp"
 
   def install
     libomp_root = Formula["libomp"].opt_prefix
